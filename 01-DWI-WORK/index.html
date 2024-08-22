@@ -3,93 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web con CSS ysando Flex y Mediaqueries</title>
+    <title>Web con CSS usando Flex y Mediaqueries</title>
     <link rel="stylesheet" href="./src/styles/index.css">
   </head>
   <body>
     <header>
-        <nav>
-            <ul class="nav-bar">
-                <li class="home-button"><a href="./index.html" class="nav-button">Home</a></li>
-                <li><a href="https://google.com" class="nav-button">Google</a></li>
-                <li><a href="https://x.com" class="nav-button">X</a></li>
-                <li><a href="https://instagram.com" class="nav-button">Instagram</a></li>
-                <li><a href="https://facebook.com" class="nav-button">Facebook</a></li>
+        <nav class="navbar">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="https://f1.com">Página Oficial F1</a></li>
+                <li><a href="https://www.statsf1.com/es/statistiques/pilote.aspx">Estadísticas</a></li>
+                <li><a href="https://www.espn.com.co">Donde ver</a></li>
+                <li><a href="https://fantasy.formula1.com">Fantasy</a></li>
             </ul>
         </nav>
         <main>
-            <div class="card">
-                <img src="./src/img/Algo_Logo.jpeg" alt="Foto 1">
-                <h3>Tarjeta 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium quasi magni et saepe asperiores adipisci dolore, fugiat amet sequi ut! Velit nemo aliquid ipsam error perspiciatis est voluptatem expedita!</p>
-                <a href="" class="card-button">Vamos!</a>
-            </div>
-            <br>
-            <div class="card">
-                <img src="./src/img/Algo_Logo.jpeg" alt="Foto 1">
-                <h3>Tarjeta 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium quasi magni et saepe asperiores adipisci dolore, fugiat amet sequi ut! Velit nemo aliquid ipsam error perspiciatis est voluptatem expedita!</p>
-                <a href="" class="card-button">Vamos!</a>
-            </div>
-            <br>
-            <div class="card">
-                <img src="./src/img/Algo_Logo.jpeg" alt="Foto 1">
-                <h3>Tarjeta 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium quasi magni et saepe asperiores adipisci dolore, fugiat amet sequi ut! Velit nemo aliquid ipsam error perspiciatis est voluptatem expedita!</p>
-                <a href="" class="card-button">Vamos!</a>
-            </div>
-            <br>
-            <div class="card">
-                <img src="./src/img/Algo_Logo.jpeg" alt="Foto 1">
-                <h3>Tarjeta 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium quasi magni et saepe asperiores adipisci dolore, fugiat amet sequi ut! Velit nemo aliquid ipsam error perspiciatis est voluptatem expedita!</p>
-                <a href="" class="card-button">Vamos!</a>
-            </div>
-            <br>
-            <div class="card">
-                <img src="./src/img/Algo_Logo.jpeg" alt="Foto 1">
-                <h3>Tarjeta 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium quasi magni et saepe asperiores adipisci dolore, fugiat amet sequi ut! Velit nemo aliquid ipsam error perspiciatis est voluptatem expedita!</p>
-                <a href="" class="card-button">Vamos!</a>
-            </div>
-            <br>
-            <div class="card">
-                <img src="./src/img/Algo_Logo.jpeg" alt="Foto 1">
-                <h3>Tarjeta 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium quasi magni et saepe asperiores adipisci dolore, fugiat amet sequi ut! Velit nemo aliquid ipsam error perspiciatis est voluptatem expedita!</p>
-                <a href="" class="card-button">Vamos!</a>
-            </div>
-            <br>
-            <div class="card">
-                <img src="./src/img/Algo_Logo.jpeg" alt="Foto 1">
-                <h3>Tarjeta 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium quasi magni et saepe asperiores adipisci dolore, fugiat amet sequi ut! Velit nemo aliquid ipsam error perspiciatis est voluptatem expedita!</p>
-                <a href="" class="card-button">Vamos!</a>
-            </div>
-            <br>
-            <div class="card">
-                <img src="./src/img/Algo_Logo.jpeg" alt="Foto 1">
-                <h3>Tarjeta 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium quasi magni et saepe asperiores adipisci dolore, fugiat amet sequi ut! Velit nemo aliquid ipsam error perspiciatis est voluptatem expedita!</p>
-                <a href="" class="card-button">Vamos!</a>
-            </div>
-            <br>
-            <div class="card">
-                <img src="./src/img/Algo_Logo.jpeg" alt="Foto 1">
-                <h3>Tarjeta 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium quasi magni et saepe asperiores adipisci dolore, fugiat amet sequi ut! Velit nemo aliquid ipsam error perspiciatis est voluptatem expedita!</p>
-                <a href="" class="card-button">Vamos!</a>
-            </div>
-            <br>
-            <div class="card">
-                <img src="./src/img/Algo_Logo.jpeg" alt="Foto 1">
-                <h3>Tarjeta 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laudantium quasi magni et saepe asperiores adipisci dolore, fugiat amet sequi ut! Velit nemo aliquid ipsam error perspiciatis est voluptatem expedita!</p>
-                <a href="" class="card-button">Vamos!</a>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://cdn-8.motorsport.com/images/mgl/Y99JQRbY/s8/red-bull-racing-logo-1.jpg" alt="Logo Equipo F1">
+                    <h3>Red Bull</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odio labore distinctio explicabo eveniet vero reprehenderit officiis modi molestias. Reiciendis, deserunt quis molestias optio pariatur neque asperiores ad minima sapiente.</p>
+                    <a href="https://www.formula1.com/en/teams/red-bull-racing" class="btn">Vamos!</a>
+                </div>
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/26/d3/94/26d394f7b8ecc31f90263bc95f9d8259.png" alt="Logo Equipo F1">
+                    <h3>McLaren</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odio labore distinctio explicabo eveniet vero reprehenderit officiis modi molestias. Reiciendis, deserunt quis molestias optio pariatur neque asperiores ad minima sapiente.</p>
+                    <a href="https://www.formula1.com/en/teams/mclaren" class="btn">Vamos!</a>
+                </div>
+                <div class="card">
+                    <img src="data:image/png;base64,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" alt="Logo Equipo F1">
+                    <h3>Ferrari</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odio labore distinctio explicabo eveniet vero reprehenderit officiis modi molestias. Reiciendis, deserunt quis molestias optio pariatur neque asperiores ad minima sapiente.</p>
+                    <a href="https://www.formula1.com/en/teams/ferrari" class="btn">Vamos!</a>
+                </div>
+                <div class="card">
+                    <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes" alt="Logo Equipo F1">
+                    <h3>Mercedes-Benz</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odio labore distinctio explicabo eveniet vero reprehenderit officiis modi molestias. Reiciendis, deserunt quis molestias optio pariatur neque asperiores ad minima sapiente.</p>
+                    <a href="https://www.formula1.com/en/teams/mercedes" class="btn">Vamos!</a>
+                </div>
+                <div class="card">
+                    <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/haas" alt="Logo Equipo F1">
+                    <h3>Haas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odio labore distinctio explicabo eveniet vero reprehenderit officiis modi molestias. Reiciendis, deserunt quis molestias optio pariatur neque asperiores ad minima sapiente.</p>
+                    <a href="https://www.formula1.com/en/teams/haas" class="btn">Vamos!</a>
+                </div>
+                <div class="card">
+                    <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/aston%20martin%202024" alt="Logo Equipo F1">
+                    <h3>Aston Martin</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odio labore distinctio explicabo eveniet vero reprehenderit officiis modi molestias. Reiciendis, deserunt quis molestias optio pariatur neque asperiores ad minima sapiente.</p>
+                    <a href="https://www.formula1.com/en/teams/aston-martin" class="btn">Vamos!</a>
+                </div>
+                <div class="card">
+                    <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/rb" alt="Logo Equipo F1">
+                    <h3>RB Visa Cash App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odio labore distinctio explicabo eveniet vero reprehenderit officiis modi molestias. Reiciendis, deserunt quis molestias optio pariatur neque asperiores ad minima sapiente.</p>
+                    <a href="https://www.formula1.com/en/teams/rb" class="btn">Vamos!</a>
+                </div>
+                <div class="card">
+                    <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/alpine" alt="Logo Equipo F1">
+                    <h3>Alpine</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odio labore distinctio explicabo eveniet vero reprehenderit officiis modi molestias. Reiciendis, deserunt quis molestias optio pariatur neque asperiores ad minima sapiente.</p>
+                    <a href="https://www.formula1.com/en/teams/alpine" class="btn">Vamos!</a>
+                </div>
+                <div class="card">
+                    <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/williams" alt="Logo Equipo F1">
+                    <h3>Williams</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odio labore distinctio explicabo eveniet vero reprehenderit officiis modi molestias. Reiciendis, deserunt quis molestias optio pariatur neque asperiores ad minima sapiente.</p>
+                    <a href="https://www.formula1.com/en/teams/williams" class="btn">Vamos!</a>
+                </div>
+                <div class="card">
+                    <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/kick%20sauber" alt="Logo Equipo F1">
+                    <h3>Stake Kick Sauber</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odio labore distinctio explicabo eveniet vero reprehenderit officiis modi molestias. Reiciendis, deserunt quis molestias optio pariatur neque asperiores ad minima sapiente.</p>
+                    <a href="https://www.formula1.com/en/teams/kick-sauber" class="btn">Vamos!</a>
+                </div>
             </div>
         </main>
-        <footer>
-            Acá va el footer
+        <footer class="footer">
+            <div class="footer-container">
+                <p>&copy; 2024 F1 Collector. Todos los derechos reservados.</p>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/Camilord075" target="_blank">Facebook</a></li>
+                    <li><a href="https://x.com/Camilo17876128" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/camilart0707" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.github.com/Camilord075" target="_blank">GitHub</a></li>
+                </ul>
         </footer>
     </header>
   </body>
